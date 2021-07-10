@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         IMDBLINKS
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.imdb.com/title/tt4298958/?ref_=hm_tpks_tt_i_1_pd_tp1_cp
