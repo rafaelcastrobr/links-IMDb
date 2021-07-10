@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  try to take over the world!
-// @author       You
+// @author       rafaelcastromon
 // @match        https://www.imdb.com/title/tt4298958/?ref_=hm_tpks_tt_i_1_pd_tp1_cp
 // @icon         https://www.google.com/s2/favicons?domain=imdb.com
 // @match          *://*.imdb.com/title/tt*/*
