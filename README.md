@@ -1,4 +1,4 @@
-# Script IMDb-Links
+# Script IMDb-Links 1.0v
 
 ![Screenshot](https://github.com/rafaelcastrobr/links-IMDb/blob/main/assets/img/imgopos.png?raw=true)
 
