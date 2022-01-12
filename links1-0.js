@@ -23,8 +23,8 @@ function pegarLink() {
 function escreverTela() {
     let tituloCortado;
 
-  if(document.querySelector('.OriginalTitle__OriginalTitleText-jz9bzr-0')){
-    let pegaTituloOri = document.getElementsByClassName('OriginalTitle__OriginalTitleText-jz9bzr-0 llYePj');
+if(document.querySelector('.OriginalTitle__OriginalTitleText-sc-jz9bzr-0')){
+    let pegaTituloOri = document.getElementsByClassName('OriginalTitle__OriginalTitleText-sc-jz9bzr-0 AEcFu');
     let pTitulo = pegaTituloOri[0].textContent;
     tituloCortado = pTitulo.slice(16);
 
