@@ -23,13 +23,13 @@ function pegarLink() {
 function escreverTela() {
     let tituloCortado;
 
-  if(document.querySelector('.sc-b73cd867-0')){
-    let pegaTituloOri = document.getElementsByClassName('sc-b73cd867-0');
+  if(document.querySelector('.sc-dae4a1bc-0')){
+    let pegaTituloOri = document.getElementsByClassName('sc-dae4a1bc-0');
     let pTitulo = pegaTituloOri[0].textContent;
     tituloCortado = pTitulo.slice(16);
 
   }else {
-    let pegaTituloTra = document.getElementsByClassName('sc-dae4a1bc-0 gwBsXc');
+    let pegaTituloTra = document.getElementsByClassName('sc-b73cd867-0');
     let pTitulo = pegaTituloTra[0].textContent;
     tituloCortado = pTitulo;
 
