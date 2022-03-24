@@ -13,7 +13,7 @@
 
 
 function pegarLink() {
-  const catchLink = document.getElementsByClassName('SubNav__SubNavContainer-sc-11106ua-1 hDUKxp');
+  const catchLink = document.getElementsByClassName('sc-96c24c5b-1');
   const linkCapturado = catchLink[0];
   return linkCapturado;
 
@@ -23,13 +23,13 @@ function pegarLink() {
 function escreverTela() {
     let tituloCortado;
 
-if(document.querySelector('.OriginalTitle__OriginalTitleText-sc-jz9bzr-0')){
-    let pegaTituloOri = document.getElementsByClassName('OriginalTitle__OriginalTitleText-sc-jz9bzr-0 AEcFu');
+  if(document.querySelector('.sc-b73cd867-0')){
+    let pegaTituloOri = document.getElementsByClassName('sc-b73cd867-0');
     let pTitulo = pegaTituloOri[0].textContent;
     tituloCortado = pTitulo.slice(16);
 
   }else {
-    let pegaTituloTra = document.getElementsByClassName('TitleHeader__TitleText-sc-1wu6n3d-0');
+    let pegaTituloTra = document.getElementsByClassName('sc-dae4a1bc-0 gwBsXc');
     let pTitulo = pegaTituloTra[0].textContent;
     tituloCortado = pTitulo;
 
