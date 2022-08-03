@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IMDBLINKS
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  try to take over the world!
 // @author       rafaelcastromon
 // @match        https://www.imdb.com/title/tt4298958/?ref_=hm_tpks_tt_i_1_pd_tp1_cp
@@ -12,11 +12,11 @@
 
 
 
-function pegarLink() {
-  const catchLink = document.getElementsByClassName('sc-f4578077-1');
-  const linkCapturado = catchLink[0];
-  return linkCapturado;
+function LocalOndeColocarBtn() {
+  const localAdc = document.getElementsByClassName('sc-f4578077-2');
+    const pai = localAdc[0];
 
+  return pai
 };
 
 
@@ -43,7 +43,7 @@ function escreverTela() {
 
 
 
-  const paiLink = pegarLink();
+  const paiLink = LocalOndeColocarBtn()
 
   //Letterboxd
   const letterboxdI = document.createElement('IMG');
