@@ -1,6 +1,6 @@
 # Script IMDb-Links 1.2v
 
-![Screenshot](https://github.com/rafaelcastrobr/links-IMDb/blob/main/assets/img/imgopos.png?raw=true)
+<img src="assets/img/screenshot2022-08-05.png" alt="cap01" width="500"/>
 
 ## Sobre
 
