@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IMDBLINKS
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.3.1
 // @description  try to take over the world!
 // @author       rafaelcastromon
 // @match        https://www.imdb.com/title/tt4298958/?ref_=hm_tpks_tt_i_1_pd_tp1_cp
