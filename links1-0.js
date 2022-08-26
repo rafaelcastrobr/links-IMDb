@@ -13,7 +13,7 @@
 
 
 function LocalOndeColocarBtn() {
-  const localAdc = document.getElementsByClassName('sc-f4578077-2');
+  const localAdc = document.getElementsByClassName('sc-f20690b4-1');
     const pai = localAdc[0];
 
   return pai
