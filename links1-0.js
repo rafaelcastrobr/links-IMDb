@@ -23,8 +23,8 @@ function LocalOndeColocarBtn() {
 function escreverTela() {
     let tituloCortado;
 
-  if(document.querySelector('.sc-afe43def-1')){
-    let pegaTituloOri = document.getElementsByClassName('sc-afe43def-1');
+  if(document.querySelector('.sc-afe43def-3')){
+    let pegaTituloOri = document.getElementsByClassName('sc-afe43def-3');
     let pTitulo = pegaTituloOri[0].textContent;
     tituloCortado = pTitulo.slice(16);
 
@@ -108,7 +108,7 @@ function escreverTela() {
   const rarbgI = document.createElement('IMG');
   const rarbgA = document.createElement('a');
 
-  rarbgA.setAttribute("href", `https://rarbgproxied.org/torrents.php?search=${pnameCB}`)
+  rarbgA.setAttribute("href", `https://rargb.to/search/?search=${pnameCB}`)
   rarbgI.src = 'https://www.google.com/s2/favicons?domain=rarbgproxied.org/torrents.php';
   rarbgA.setAttribute('style', 'margin-left:5px;');
   rarbgA.setAttribute('target', '_blank');
