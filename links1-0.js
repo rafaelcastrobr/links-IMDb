@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IMDBLINKS
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5 // 22-07-2023
 // @description  try to take over the world!
 // @author       rafaelcastromon
 // @match        https://www.imdb.com/title/tt4298958/?ref_=hm_tpks_tt_i_1_pd_tp1_cp
@@ -13,7 +13,7 @@
 
 
 function LocalOndeColocarBtn() {
-  const localAdc = document.getElementsByClassName('sc-f20690b4-1');
+  const localAdc = document.getElementsByClassName('sc-acac9414-0 ');
     const pai = localAdc[0];
 
   return pai
@@ -23,13 +23,13 @@ function LocalOndeColocarBtn() {
 function escreverTela() {
     let tituloCortado;
 
-  if(document.querySelector('.sc-dae4a1bc-0')){
-    let pegaTituloOri = document.getElementsByClassName('sc-dae4a1bc-0');
+  if(document.querySelector('.sc-afe43def-1')){
+    let pegaTituloOri = document.getElementsByClassName('sc-afe43def-1');
     let pTitulo = pegaTituloOri[0].textContent;
     tituloCortado = pTitulo.slice(16);
 
   }else {
-    let pegaTituloTra = document.getElementsByClassName('sc-b73cd867-0');
+    let pegaTituloTra = document.getElementsByClassName('sc-afe43def-1');
     let pTitulo = pegaTituloTra[0].textContent;
     tituloCortado = pTitulo;
 
@@ -132,4 +132,3 @@ function escreverTela() {
 
 };
 escreverTela();
-
